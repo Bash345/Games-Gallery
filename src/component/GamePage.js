@@ -11,7 +11,7 @@ const GamePage = () => {
   return (
     <div className="App">
       <header style={{ textAlign: 'center', padding: '20px 0' }}>
-      <h1 style={{ fontSize: '36px' }}>My Game's Gallery</h1>
+      <h1 style={{ fontSize: '36px' }}>BA's Game Gallery</h1>
     </header>
     <table>
       <tbody>
@@ -30,7 +30,7 @@ const GamePage = () => {
         <tr>
           <td>
             <Link to="https://nodecode-zeta.vercel.app/dance12.html" target="_blank" rel="noreferrer">
-                <img src={dancegame} alt='DanceGame' style={{ width: '50%', height: '50%', border: '1px solid black' }}></img>
+                <img src={dancegame} alt='AI DanceGame' style={{ width: '50%', height: '50%', border: '1px solid black' }}></img>
             </Link>
           </td>
           <td>
